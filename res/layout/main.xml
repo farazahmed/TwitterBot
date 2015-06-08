@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/twitterLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </Button>
+
+    <Button
+        android:id="@+id/getTweet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="Settings" >
+    </Button>
+    
+    <Button
+        android:id="@+id/btnstarttweeting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:text="Start Tweeting" >
+    </Button>
+<!--   <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" > -->
+
+        <TextView
+            android:id="@+id/tweetText"
+            android:layout_width="fill_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content" />
+        
+    <!-- </ScrollView> -->
+
+</LinearLayout>
